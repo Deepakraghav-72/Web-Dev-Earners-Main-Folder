@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box-linear {
+    width: 300px;
+    height: 300px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    transition-duration: 3s;
+    transition-property: all;
+    transform: scaleX(1.1);
+    animation: deepak;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes deepak {
+    from {
+        background-color: rgb(129, 8, 8);
+        /* transform:translateX(30px, 70px); */
+    }
+
+    to {
+        background-color: rgb(0, 21, 255);
+        transform: translate(30px, 70px);
+    }
+}
+
+
+.box-linear-2 {
+    width: 300px;
+    height: 300px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    transition-duration: 3s;
+    transition-property: all;
+    transform: scaleX(1.1);
+    animation: deepak2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    /* animation-direction: reverse; */
+    /* animation-direction: alternate-reverse; */
+    /* animation-direction: alternate; */
+    animation-direction: normal;
+
+}
+
+
+
+@keyframes deepak2 {
+    0% {
+        background-color: red;
+    }
+
+    25% {
+        background-color: #fff;
+
+    }
+
+    50% {
+        background-color: deeppink;
+        width: 1000px;
+    }
+
+    75% {
+        background-color: springgreen;
+        width: 500px;
+    }
+
+    100% {
+        background-color: tomato;
+        transform: translate(70px, 100px);
+        width: 700px;
+    }
+
+}
+
+
+
+.box-linear-3 {
+    width: 300px;
+    height: 300px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    transition-duration: 3s;
+    transition-property: all;
+    transform: scaleX(1.1);
+    animation: deepak3;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    /* animation-direction: reverse; */
+    animation-direction: alternate-reverse;
+    /* animation-direction: alternate; */
+    /* animation-direction: normal; */
+    position: absolute;
+    top: 100px;
+
+}
+
+
+
+@keyframes deepak3 {
+    0% {
+        background-color: red;
+    }
+
+    25% {
+        background-color: #6e0303;
+
+    }
+
+    50% {
+        background-color: rgb(61, 2, 33);
+        /* width: 1000px; */
+    }
+
+    75% {
+        background-color: rgb(17, 20, 18);
+        /* width: 500px; */
+    }
+
+    100% {
+        background-color: rgb(36, 7, 2);
+        transform: translateX(1200px);
+        /* width: 700px ; */
+    }
+
+}

@@ -1,0 +1,56 @@
+#hell {
+    font-family: 'Courier New', Courier, monospace;
+    border: 1px solid red;
+}
+
+#dev {
+    font-size: 12px;
+    text-align: center;
+    border: 1px solid red;
+}
+
+#devlo {
+    font-style: italic;
+    font-variant: small-caps;
+    line-height: 2;
+    letter-spacing: 8px;
+}
+
+
+p {
+    font-size: 32px;
+    font-weight: 900;
+
+}
+
+h3 {
+    line-height: 3;
+    word-spacing: 8px;
+    font-style: italic;
+    letter-spacing: 5px;
+    text-decoration: overline;
+}
+
+#lorem {
+    text-align: center;
+    text-decoration: line-through;
+    text-shadow: 2px 2px 7px red;
+    letter-spacing: 3px;
+   
+}
+
+
+span {
+    /* border: 1px solid rgb(0, 145, 255); */
+    text-align: center;
+
+    text-decoration: underline dashed 4px;
+    text-transform: capitalize;
+
+
+}
+
+h5{
+     text-shadow: 5px 5px  3px blueviolet; 
+     letter-spacing: 5px;
+}

@@ -1,0 +1,90 @@
+span {
+    color: rgb(39, 123, 58);
+    
+}
+
+a{
+    color: violet;
+   
+    background-color: turquoise;
+}
+/* ul,ol {
+    color: red;
+} */
+
+.hello {
+    color: brown;
+}
+
+#parrot{
+    color: slategrey;
+    background-color: rgb(197, 240, 240);
+}
+/* 
+h1{
+    color: burlywood;
+} */
+
+.main{
+    color: cadetblue;
+}
+
+#dev{
+    color: darkmagenta;
+}
+
+div{
+    color: blue;
+}
+
+h5:hover{
+    color: red;
+    background-color: yellow;
+}
+
+li:hover{
+    color: blue;
+}
+
+li:first-child{
+    color: green;
+    background-color: grey;
+}
+
+li:last-child{
+    color: yellowgreen;
+    background-color: palegoldenrod;
+}
+
+li:nth-child(2){
+    color: tomato;
+}
+
+li:nth-last-child(3){
+    color: darkcyan;
+}
+
+li:only-child{
+    color: lawngreen;
+}
+li:empty{
+    color: whitesmoke;
+}
+
+h1::after {
+    content: " ji";
+}
+
+
+h1::before {
+    content: " Yes,";
+}
+
+h1::first-letter{
+    color: blue;
+    font-size: 120px;
+}
+
+h1::selection{
+    background-color: red;
+}

@@ -1,0 +1,71 @@
+h1 {
+    background-color: rgb(148, 148, 55);
+}
+
+#wrapper {
+    /* background: linear-gradient(to right, red, blue); */
+    /* background: linear-gradient(45deg, red, blue,green,yellow); */
+    height: 900px;
+
+    /* background: radial-gradient(circle, yellow, red, green, blue); */
+
+    /* background: conic-gradient(red, green, pink); */
+
+    /* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwegjgD5iKDuwG-eD0bBbYN_f3MU5X518LQ8fZPquxt3lybyjdqoKLmOo&s=10);
+
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain; */
+    /* filter: blur(3px); */
+     /* background-size: cover; */
+}
+
+
+#rapper{
+        /* border-width: 20px;
+        border-style: solid;
+        border-color: rebeccapurple */
+        border: 20px  solid red;
+} 
+
+
+.pi{
+    border-top: 9px dotted red;
+    border-bottom: 8px solid rgba(5, 10, 53, 0.597);
+    border-left: 5px solid aqua;
+    border-right: 4px solid darkblue;
+    border-radius: 20px;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    font-size: 25px;
+    padding: 30px;
+    
+}
+
+.lorem{
+    border: 8px dotted darkblue;
+    margin: auto;
+}
+
+h2{
+    background-color: aqua;
+    /* margin: auto; */
+    text-align: center;
+}
+
+#deepak{
+    width: 150px;
+    background-color: yellow;
+    border: 8px dotted firebrick ;
+    margin: auto;
+}
+
+span{
+    box-sizing: content-box;
+    border: 2px solid goldenrod;
+    margin: auto;
+    width: 500px;
+    height: 80px;
+    padding: 10px;
+    background-color: teal;
+}

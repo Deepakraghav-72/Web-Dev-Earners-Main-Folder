@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Forms</h1>
+
+    <div>
+        <form action="Welcomepage.html" target="_blank">
+
+            <fieldset>
+                <legend>Enter your Basic information</legend>
+                <label for="name">Name:</label>
+                <input type="text" placeholder="Enter your name" id="name" required>
+                <br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" placeholder="Enter your email" id="email">
+
+                <br><br>
+                <label for="password">Password:</label>
+                <input type="Password" placeholder="Enter your Password" id="password">
+
+                <br><br>
+                <label for="checkbox">Are you 18+ ? :</label>
+                <input type="checkbox" id="checkbox">
+
+                <br><br>
+                <label for="Phone number">Enter your mobile number</label>
+                <input type="number" id="Phone number" required minlength="10" min="0" maxlength="10">
+
+
+                <br><br>
+                <label for="Gender">Gender :</label>
+                <label for="Male">Male</label>
+                <input type="radio" id="Male" name="gender">
+                <label for="Femail">Femail</label>
+                <input type="radio" id="Femail" name="gender">
+
+                <br><br>
+                <label for="DOB">Enter your DOB</label>
+                <input type="date" id="DOB">
+
+                <br><br>
+                <label for="file">Enter upload file</label>
+                <input type="file" id="file">
+
+                <br><br>
+
+
+                <label for="city">Select your city:</label>
+                <select name="city" id="city">
+                    <option value="selected">Select</option>
+                    <option value="delhi">Delhi</option>
+                    <option value="mumbai">Mumbai</option>
+                    <option value="noida">Noida</option>
+                    <option value="kolkata">Kolkata</option>
+                    <option value="jaipur">Jaipur</option>
+                </select>
+
+                <br><br>
+                <button type="submit">Submit form</button>
+                <button type="reset">Reset form</button>
+
+
+
+            </fieldset>
+        </form>
+    </div>
+
+
+</body>
+
+</html>

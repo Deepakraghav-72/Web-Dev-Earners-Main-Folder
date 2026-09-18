@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: violet;
+}
+header h1{
+    text-align: center;
+    border: 2px solid red;
+    width: 82%;
+    margin: 0 auto;
+    padding: 2vh;
+    margin-bottom: 1vh;
+}
+.item{
+    height: 100%;
+    width: 100%;
+}
+.Item {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 80%;
+    margin: 0 auto
+    
+
+}
+
+.Item p {
+    border: 2px solid black;
+    height: 20%;
+    width: 80%;
+    background-color: steelblue;
+    padding: 30px;
+    text-align: center;
+    
+  
+}

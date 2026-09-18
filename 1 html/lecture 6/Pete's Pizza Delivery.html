@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Pete's Pizza Delivery</title>
+</head>
+
+<body>
+
+<center>
+    <h1>Pete's Pizza Delivery</h1>
+    <h2>Online Order Form</h2>
+    <p><b>* required fields</b></p>
+</center>
+
+<form>
+
+<fieldset>
+    <legend>Customer details</legend>
+
+    <table>
+        <tr>
+            <td>*Name:</td>
+            <td><input type="text" size="25"></td>
+        </tr>
+
+        <tr>
+            <td>*Address:</td>
+            <td><input type="text" size="40"></td>
+        </tr>
+
+        <tr>
+            <td>*Town/city:</td>
+            <td><input type="text" size="15"></td>
+        </tr>
+
+        <tr>
+            <td>*Postcode:</td>
+            <td><input type="text" size="8"></td>
+        </tr>
+
+        <tr>
+            <td>*Tel:</td>
+            <td><input type="tel" size="15"></td>
+        </tr>
+
+        <tr>
+            <td>*Email:</td>
+            <td><input type="email" size="40"></td>
+        </tr>
+    </table>
+
+</fieldset>
+
+<br>
+
+<table width="100%">
+<tr>
+
+<td width="33%" valign="top">
+<fieldset>
+<legend>Topping *</legend>
+
+<input type="radio" name="topping"> Margherita<br>
+<input type="radio" name="topping"> Four Seasons<br>
+<input type="radio" name="topping"> Meat Feast
+
+</fieldset>
+</td>
+
+<td width="33%" valign="top">
+<fieldset>
+<legend>Size *</legend>
+
+<input type="radio" name="size"> Small<br>
+<input type="radio" name="size"> Medium<br>
+<input type="radio" name="size"> Large
+
+</fieldset>
+</td>
+
+<td width="34%" valign="top">
+<fieldset>
+<legend>Extras</legend>
+
+<input type="checkbox"> Mushrooms<br>
+<input type="checkbox"> Green peppers<br>
+<input type="checkbox"> Anchovies<br>
+<input type="checkbox"> Extra cheese
+
+</fieldset>
+</td>
+
+</tr>
+</table>
+
+<fieldset>
+
+<legend>Delivery</legend>
+
+Preferred delivery time:
+<select>
+<option>--:--</option>
+<option>10:00</option>
+<option>11:00</option>
+<option>12:00</option>
+<option>01:00</option>
+<option>02:00</option>
+<option>03:00</option>
+<option>04:00</option>
+<option>05:00</option>
+<option>06:00</option>
+<option>07:00</option>
+<option>08:00</option>
+<option>09:00</option>
+</select>
+
+<br><br>
+
+Delivery instructions:<br>
+
+<textarea rows="4" cols="55"></textarea>
+
+</fieldset>
+
+<br>
+
+<center>
+<input type="submit" value="Submit order">
+</center>
+
+</form>
+
+</body>
+</html>
