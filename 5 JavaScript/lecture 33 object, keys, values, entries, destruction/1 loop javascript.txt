@@ -1,0 +1,151 @@
+yha se phle ke note mere coding devlopments Notes ke ander hain.
+
+
+// for of loop 
+// for in loop
+// for each loop    
+
+
+# JavaScript Loops
+
+## 1. for...of Loop
+
+**Use:** Array ke elements ko one-by-one access karne ke liye.
+
+### Syntax
+
+```js
+for (let value of array) {
+    // code
+}
+```
+
+### Example
+
+```js
+let fruits = ["Apple", "Mango", "Banana"];
+
+for (let fruit of fruits) {
+    console.log(fruit);
+}
+```
+
+### Output
+
+```text
+Apple
+Mango
+Banana
+```
+
+**Yaad rakho:**
+`for...of` → **Value**
+
+----------------------------------------------------------------------------------------------------------
+
+## 2. for...in Loop
+
+**Use:** Object ki keys/properties ko one-by-one access karne ke liye.
+
+### Syntax
+
+```js
+for (let key in object) {
+    // code
+}
+```
+
+### Example
+
+```js
+let product = {
+    name: "iPhone",
+    price: 59999,
+    brand: "Apple"
+};
+
+for (let key in product) {
+    console.log(key);
+}
+```
+
+### Output
+
+```text
+name
+price
+brand
+```
+
+**Key + Value dono ke liye:**
+
+```js
+for (let key in product) {
+    console.log(key, product[key]);
+}
+```
+
+**Yaad rakho:**
+`for...in` → **Key**
+
+----------------------------------------------------------------------------------------------------------
+
+## 3. forEach() Loop
+
+**Use:** Array ke har element par one-by-one operation perform karne ke liye.
+
+### Syntax
+
+```js
+array.forEach(function(value) {
+    // code
+});
+```
+
+### Example
+
+```js
+let fruits = ["Apple", "Mango", "Banana"];
+
+fruits.forEach(function(fruit) {
+    console.log(fruit);
+});
+```
+
+### Output
+
+```text
+Apple
+Mango
+Banana
+```
+
+### Index ke saath
+
+```js
+fruits.forEach((fruit, index) => {
+    console.log(index, fruit);
+});
+```
+
+**Yaad rakho:**
+`forEach()` → **Array ke har element par kaam**
+
+----------------------------------------------------------------------------------------------------------
+
+# Quick Revision
+
+| Loop        | Mainly Used For | Kya milta hai? |
+| ----------- | --------------- | -------------- |
+| `for...of`  | Array           | Value          |
+| `for...in`  | Object          | Key            |
+| `forEach()` | Array           | Value + Index  |
+
+### Super Easy Trick
+
+`for...of` → **OF = Object/Array ki Value**
+
+`for...in` → **IN = keys ke andar**
+
+`forEach()` → **Each = har element**
+
